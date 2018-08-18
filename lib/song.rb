@@ -1,5 +1,4 @@
 class Song 
-  require "pry"
   attr_accessor :name, :artist_name
   @@all = []
 
