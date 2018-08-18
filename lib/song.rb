@@ -49,7 +49,6 @@ class Song
     songname = filename[1].strip
     artistname = filename[0].strip
     song = Song.new
-    song.artist_name = artistname
     song.name = songname
   end 
   
