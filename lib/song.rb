@@ -49,7 +49,7 @@ class Song
     songname = filename[1].strip
     artistname = filename[0].strip
     song = Song.new
-    song.artist_name = artistname
+    song.artist_name = artistname.
   end 
   
   def Song.create_from_filename
